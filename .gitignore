@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+virtualenv/pyvenv.cfg
+virtualenv/bin/activate
+virtualenv/bin/activate.csh
+virtualenv/bin/activate.fish
+virtualenv/bin/django-admin
+virtualenv/bin/django-admin.py
+virtualenv/bin/easy_install
+virtualenv/bin/easy_install-3.7
+virtualenv/bin/pip
+virtualenv/bin/pip3
+virtualenv/bin/pip3.7
+virtualenv/bin/python
+virtualenv/bin/python3
+virtualenv/bin/sqlformat
