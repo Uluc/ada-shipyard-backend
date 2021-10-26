@@ -12,33 +12,33 @@ from .models.sections_model import Section
 class CertificateSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Certificate
-        fields = ('certificate_id', 'certificate_name', 'certificate_image', 'certificate_description')
+        fields = ('id', 'certificate_name', 'certificate_image', 'certificate_description')
 
 class CorporateSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Corporate
-        fields = ('corporate_id', 'corporate_name', 'corporate_image', 'corporate_description')
+        fields = ('id', 'corporate_name', 'corporate_image', 'corporate_description')
 
 class HealthAndSafetySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = HealthAndSafety
-        fields = ('health_safety_id', 'health_safety_name', 'health_safety_image', 'health_safety_description')
+        fields = ('id', 'health_safety_name', 'health_safety_image', 'health_safety_description')
 
 class NewsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = News
-        fields = ('news_id', 'news_name', 'news_image', 'news_description')
+        fields = ('id', 'news_name', 'news_image', 'news_description')
 
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Project
-        fields = ('project_id', 'project_name', 'project_image', 'project_description', 
+        fields = ('id', 'project_name', 'project_image', 'project_description', 
         'project_length', 'project_width', 'project_breadth', 'project_depth', 'project_gross_tonnage')
 
 class QualityPolicySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = QualityPolicy
-        fields = ('quality_policy_id', 'quality_policy_text')
+        fields = ('id', 'quality_policy_text')
 
 class SectionSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
