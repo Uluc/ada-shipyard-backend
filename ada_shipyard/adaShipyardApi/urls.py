@@ -2,17 +2,16 @@ from django.urls import include, path
 from rest_framework import routers
 from . import views
 
-router = routers.DefaultRouter()
-router.register(r'certificates', views.CertificateViewSet)
-router.register(r'corporates', views.CorporateViewSet)
-router.register(r'health_safety', views.HealthAndSafetyViewSet)
-router.register(r'news',views.NewsViewSet)
-router.register(r'projects', views.ProjectViewSet)
-router.register(r'quality_policy', views.QualityPolicyViewSet)
-router.register(r'sections', views.QualityPolicyViewSet)
-# Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
+
 urlpatterns = [
-    path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('', views.home, name='website-home'),
+#     path('about/', views.about, name='website-about'),
+#     path('contact/', views.contact, name='website-contact'),
+#     path('projects/', views.projects, name='website-projects'),
+#     path('projects/<int:project_id>/', views.project_detail, name='website-project-detail'),
+#     path('news/', views.news, name='website-news'),
+#     path('news/<int:news_id>/', views.news_detail, name='website-news-detail'),
+#     path('quality_policy/', views.quality_policy, name='website-quality-policy'),
+# 
 ]
