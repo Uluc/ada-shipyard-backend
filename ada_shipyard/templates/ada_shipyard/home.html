@@ -1,9 +1,34 @@
 {% extends "ada_shipyard/base.html" %}
-{% block content %}
-<div>
-    <h2>Welcome to the Shipyard</h2>
-    <p>
-        Welcome to the Shipyard. This is a place where you can buy and sell ships.
-    </p>
+{% load static %}
+{% block header %} 
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/images.css' %}">
+</head>
+
+<div class="image-container">
+    <h1 class="title">Ada Shipyard</h1>
 </div>
-{% endblock content %}
+
+{% endblock header %}
+
+{% block content%}
+
+<div class="header py-3">
+    <h1>ABOUT US</h1>
+</div>
+<div class="container">
+        <p>
+            Ada Shipyard is a leading shipbuilder in the shipbuilding sector, providing quality and customer focused services by combining years of industry experience, expertise and experience with rich resources.
+Ada Shipyard offers the best service and solutions in ship construction with its sensitive, talented and reliable team, gives weight to quality and detail, respects customer satisfaction. Ada Shipyard has become a reliable company with the services it has provided and the works it has done.
+</p>
+
+<img class = "quote" src="https://fadzrinmadu.github.io/hosted-assets/design-testimonial-section-using-html-and-css/quote.png">
+      <p class = "quote">Ada Shipyard provides modern solutions with high quality production and reasonable solutions with its modern facilities. Ada Shipyard values customer satisfaction, employee safety and health, and clean environment to provide a service above standards.</p>
+</div>
+   <h1>Recent Projects</h1>
+   <h1>News</h1>
+   
+   
+
+{% endblock content%}
