@@ -27,12 +27,13 @@
     <link rel="stylesheet" href="{% static 'css/images.css' %}" />
     <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
     <link rel="stylesheet" href="{% static 'css/typography.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/carousel.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/carousel.css' %}" />\
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,700;1,100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100&display=swap"
       rel="stylesheet"
     />
 
@@ -70,9 +71,10 @@
       </ul>
     </nav>
 
-    <div class="content">
-      {% block header %}
-      {% endblock header %} 
+    {% block header %}
+    {% endblock header %} 
+    <div class="content main">
+      
       {% block content %} 
       {% endblock content %}
     </div>

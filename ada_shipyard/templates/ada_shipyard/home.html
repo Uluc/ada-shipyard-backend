@@ -1,34 +1,177 @@
-{% extends "ada_shipyard/base.html" %}
-{% load static %}
-{% block header %} 
+{% extends "ada_shipyard/base.html" %} {% load static %} {% block header %}
 
 <head>
-    <link rel="stylesheet" href="{% static 'css/images.css' %}">
+  <link rel="stylesheet" href="{% static 'css/images.css' %}" />
 </head>
 
 <div class="image-container">
-    <h1 class="title">Ada Shipyard</h1>
+  <h1 class="title">Ada Shipyard</h1>
 </div>
 
-{% endblock header %}
+{% endblock header %} {% block content%}
 
-{% block content%}
+<div class="mt-5 flex">
+  <h2>ABOUT US</h2>
+</div>
+<div class="about-container">
+  <p>
+    Ada Shipyard is a leading shipbuilder in the shipbuilding sector, providing
+    quality and customer focused services by combining years of industry
+    experience, expertise and experience with rich resources. Ada Shipyard
+    offers the best service and solutions in ship construction with its
+    sensitive, talented and reliable team, gives weight to quality and detail,
+    respects customer satisfaction. Ada Shipyard has become a reliable company
+    with the services it has provided and the works it has done.
+  </p>
 
+  <div class="quote-container">
+    <img
+      src="{% static 'images/quotes.png' %}"
+      alt="quote"
+      class="quote-image"
+    />
+    <p class="quote-typography">
+      "Ada Shipyard provides modern solutions with high quality production and
+      reasonable solutions with its modern facilities. Ada Shipyard values
+      customer satisfaction, employee safety and health, and clean environment
+      to provide a service above standards."
+    </p>
+  </div>
+</div>
 <div class="header py-3">
-    <h1>ABOUT US</h1>
+  <h1>RECENT PROJECTS</h1>
 </div>
-<div class="container">
-        <p>
-            Ada Shipyard is a leading shipbuilder in the shipbuilding sector, providing quality and customer focused services by combining years of industry experience, expertise and experience with rich resources.
-Ada Shipyard offers the best service and solutions in ship construction with its sensitive, talented and reliable team, gives weight to quality and detail, respects customer satisfaction. Ada Shipyard has become a reliable company with the services it has provided and the works it has done.
-</p>
+<div class="cards-container">
+  <div class="container">
+    <div class="card" style="">
+      <div class="blur"></div>
+      <div class="imgBx">
+        <img
+          src="http://ada-shipyard.com/wp-content/uploads/2017/12/nb-105-2-1024x597.jpg"
+        />
+      </div>
+      <div class="contentBx">
+        <h2>SB-120</h2>
+        <h6>TENNA</h6>
+        <div class="vertical-line"></div>
+        <div class="size">
+          <ul>
+            <li>
+              <p>Size:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Length:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Width:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Draft:</p>
+              <p></p>
+            </li>
+            <li>
+        
+               
+                    <a type="button" class="btn btn-outline-light" href="http://ada-shipyard.com/projects/tenna-sb-120/">
+                        View Project
+                    </a>
+               
+            </li>
 
-<img class = "quote" src="https://fadzrinmadu.github.io/hosted-assets/design-testimonial-section-using-html-and-css/quote.png">
-      <p class = "quote">Ada Shipyard provides modern solutions with high quality production and reasonable solutions with its modern facilities. Ada Shipyard values customer satisfaction, employee safety and health, and clean environment to provide a service above standards.</p>
+              
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    
+
+   
+  </div>
+  <div class="container">
+    <div class="card" style="">
+      <div class="blur"></div>
+      <div class="imgBx">
+        <img
+          src="http://ada-shipyard.com/wp-content/uploads/2017/12/nb-105-2-1024x597.jpg"
+        />
+      </div>
+      <div class="contentBx">
+        <h2>SB-120</h2>
+        <h6>TENNA</h6>
+        <div class="size">
+          <ul>
+            <li>
+              <p>Size:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Length:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Width:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Draft:</p>
+              <p></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+   
+  </div>
+  <div class="container">
+    <div class="card" style="">
+      <div class="blur"></div>
+      <div class="imgBx">
+        <img
+          src="http://ada-shipyard.com/wp-content/uploads/2017/12/nb-105-2-1024x597.jpg"
+        />
+      </div>
+      <div class="contentBx">
+        <h2>SB-120</h2>
+        <h6>TENNA</h6>
+        <div class="size">
+          <ul>
+            <li>
+              <p>Size:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Length:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Width:</p>
+              <p></p>
+            </li>
+            <li>
+              <p>Draft:</p>
+              <p></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+   
+  </div>
 </div>
-   <h1>Recent Projects</h1>
-   <h1>News</h1>
-   
-   
+  
 
-{% endblock content%}
+  <div class="header py-3">
+    <h1>NEWS</h1>
+  </div>
+
+  {% endblock content%}
+</div>
