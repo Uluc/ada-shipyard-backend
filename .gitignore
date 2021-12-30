@@ -141,3 +141,17 @@ virtualenv/bin/pip3.7
 virtualenv/bin/python
 virtualenv/bin/python3
 virtualenv/bin/sqlformat
+virualenv/pyvenv.cfg
+virualenv/Scripts/activate
+virualenv/Scripts/activate.bat
+virualenv/Scripts/Activate.ps1
+virualenv/Scripts/deactivate.bat
+virualenv/Scripts/django-admin.exe
+virualenv/Scripts/easy_install-3.9.exe
+virualenv/Scripts/easy_install.exe
+virualenv/Scripts/pip.exe
+virualenv/Scripts/pip3.9.exe
+virualenv/Scripts/pip3.exe
+virualenv/Scripts/python.exe
+virualenv/Scripts/pythonw.exe
+virualenv/Scripts/sqlformat.exe
