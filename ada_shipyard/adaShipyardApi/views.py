@@ -10,3 +10,6 @@ from .models.sections_model import Section
 
 def home(request):
     return render(request, 'ada_shipyard/home.html')
+
+def corporate(request):
+    return render(request, 'ada_shipyard/corporate.html')

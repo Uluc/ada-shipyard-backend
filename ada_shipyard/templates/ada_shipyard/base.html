@@ -63,7 +63,7 @@
       </div>
       <ul>
         <li class="navbar-items">Home</li>
-        <li class="navbar-items">Corporate</li>
+        <li class="navbar-items"><a class="nav-link" href="{% url 'website-corporate' %}">Corporate</a></li>
         <li class="navbar-items">Facilities</li>
         <li class="navbar-items">Project</li>
         <li class="navbar-items">News</li>
@@ -73,11 +73,13 @@
 
     {% block header %}
     {% endblock header %} 
-    <div class="content main">
-      
-      {% block content %} 
+    <div id="main-view" style="background-color:#f0f0f0; position: relative; z-index: 5;" >
+        
+      {% block content %}
       {% endblock content %}
-    </div>
+      <hr>
+
+  </div>
 
     <footer
       class="footer-bg bg-cover"

@@ -1,27 +1,28 @@
-body{
-    
-    background-image: url("https://pixelsharing.files.wordpress.com/2010/11/1023-tileable-and-seamless-pattern.jpg");
-    background-repeat: repeat;
-    background-position: center;
-    background-attachment: fixed;
 
-}
 
 .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
   
-  .main {
-  width: 85%;
+.main {
   background-color: ghostwhite;
-  }
+  display: flex;
+  flex-direction: column;
+
+}
   
-  .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2rem;
-  }
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+#main-view{
+  margin-right: 15%;
+  margin-left: 15%;
+  height: 100%;
+}
