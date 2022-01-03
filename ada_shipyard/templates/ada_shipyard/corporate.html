@@ -1,32 +1,33 @@
-{% extends "ada_shipyard/base.html" %} {% load static %} {% block header %}
+{% extends "ada_shipyard/base.html" %} {% load static %} 
+
+{% block header %}
 
 <head>
     <link rel="stylesheet" href="{% static 'css/images.css' %}" />
 </head>
 
-<div class="image-container">
-    <h1 class="title">Ada Shipyard</h1>
+<div class="image-container" style="background-image:url('http://ada-shipyard.com/wp-content/uploads/2017/12/nb-109-4-1024x597.jpg')">
+    <h1 class="title">Corporate Values</h1>
 </div>
 
 {% endblock header %}
 
 {% block content%}
 
-<div class="row">
-    <div class="col">It is a long established fact that a reader will be distracted by the readable content of a page
+<div class="row-md d-flex px-5 my-5">
+    <div class="col-md text-left">
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page
         when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
         letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
         publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
         'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
-        sometimes by accident, sometimes on purpose (injected humour and the like). </div>
-    <div class="col">
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
-        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
-        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
-        accident, sometimes on purpose (injected humour and the like).
+        sometimes by accident, sometimes on purpose (injected humour and the like). </p></div>
+    <div class="col-md">
+       {% comment %}  image for http://ada-shipyard.com/wp-content/uploads/2018/01/HAKKIMIZDA-3-1024x555.jpg {% endcomment %}
+
+        <img class="display-image" src="http://ada-shipyard.com/wp-content/uploads/2018/01/HAKKIMIZDA-3-1024x555.jpg" alt="">
     </div>
+</div>
 </div>
 
 <div>

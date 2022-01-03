@@ -1,10 +1,26 @@
 .image-container {
-    display: flex;
+    height: 40vh;
+    width: auto;
+    background-size: cover;
+
+    object-fit: cover;
+    position: relative;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    
     justify-content: center;
     align-items: center;
-  width: 100%;
-  height: 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
+    display: flex;
+    background-position: center;
+    
   background-image: url("http://ada-shipyard.com/wp-content/uploads/2018/01/tamir-bakım.jpg");
+}
+
+.display-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
