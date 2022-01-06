@@ -1,0 +1,49 @@
+{% extends "ada_shipyard/base.html" %} {% load static %}
+
+{% block header %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/images.css' %}" />
+</head>
+
+<div class="image-container"
+    style="background-image:url('http://ada-shipyard.com/wp-content/uploads/2017/12/nb-109-4-1024x597.jpg')">
+    <h1 class="title">Our Quality Policy</h1>
+</div>
+
+{% endblock header %}
+
+{% block content%}
+
+<div class="row-md d-flex my-5">
+    <div class="col-md">
+        <ol class="custom-counter text-left">
+            <li><span>Create sense of belonging and team spirit in employees</span></li>
+            <li><span>Design and plan projects as detailed as possible in advance using related software and to keep all
+                projects under control</span></li>
+            <li><span>Be transparent and open to clients, to ensure that they can inspect their projects as they see fit</span></li>
+            <li><span>Provide an effective quality control system with a clear, just and measurable structure and to keep
+                quality at the top level</span></li>
+            <li><span>Encourage all employees to feedback, ensuring continuous improvement with a good feedback system</span></li>
+            <li><span>Use an integrated system to ensure that all internal and external service personnel working within the
+                organization work in harmony</span></li>
+            <li><span>Prevent accidents in safety, health and environment</span> </li>
+            <li><span>Work with relevant local, national and international laws and requirements</span></li>
+            <li><span>Create the design and production standards of the shipyard, accelerating both the design and the
+                production and increase the productivity</span></li>
+            <li><span>Providing early production in order to lower the cost of the vessels and improve quality</span></li>
+            <li><span>Make production with "design for production" philosophy in order to facilitate design and production
+            </span></li>
+            <li><span>Make contracts and major construction plans that do not exceed limits of the shipyard</span></li>
+            <li><span>Create physical and virtual environments that shows the vital importance of material control</span></li>
+        </ol>
+    </div>
+    <div class="col-md">
+        <img class="display-image" src="http://ada-shipyard.com/wp-content/uploads/2018/08/kalite-2.jpg" alt="">
+    </div>
+
+</div>
+
+
+
+{% endblock content%}

@@ -1,0 +1,44 @@
+{% extends "ada_shipyard/base.html" %} {% load static %}
+
+{% block header %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/images.css' %}" />
+</head>
+
+<div class="image-container"
+    style="background-image:url('http://ada-shipyard.com/wp-content/uploads/2017/12/nb-109-4-1024x597.jpg')">
+    <h1 class="title">Our Quality Policy</h1>
+</div>
+
+{% endblock header %}
+
+{% block content%}
+
+<div class="row-md d-flex my-5">
+    <div class="col-md text-left">
+        <h2 class="">Health, Safety and Environment</h2>
+        <p>
+        Occupational health and safety is the highest priority of Ada Shipyard and is strictly observed. All work is
+        secured with top-level security protocols and risk analysis. Quality and efficient production is the way to
+        create a safe and healthy environment. For this reason, the Ada Shipyard takes care of the health and safety of
+        its employees in the business environment and prevents the occurrence of job accidents. In order to provide
+        these, Ada Shipyard has ISO 9001: 2008 Quality Management Standard, ISO 14001: 2004 Environmental Management
+        International Standard and OHSAS 18001: 2007 Occupational Health and Safety Standard.
+        </p>
+    </div>
+    <div class="col-md">
+        <img class="display-image" src="http://ada-shipyard.com/wp-content/uploads/2018/08/kalite-2.jpg" alt="">
+    </div>
+</div>
+<div class="row-md d-flex my-5">
+    <h2 class="">Our Goals</h2>
+    <ul>
+        <li>Secure work tools and machines</li>
+        <li>Minimize the risks and prevent injuries and injuries</li>
+    </ul>
+    </div>
+
+
+
+{% endblock content%}
